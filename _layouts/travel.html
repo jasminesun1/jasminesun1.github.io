@@ -1,0 +1,132 @@
+---
+layout: default
+---
+
+<article class="travel-entry">
+  <header class="travel-header">
+    <div class="header-content">
+      <div class="title-section">
+        <h1>{{ page.title }}</h1>
+        <p class="date">{{ page.visit_date }}</p>
+      </div>
+      {% if page.guide %}
+        <button class="view-guide-btn" onclick="openGuide()">VIEW GUIDE</button>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="image-grid">
+    {% if page.images %}
+      {% for image in page.images %}
+        <div class="image-item" data-index="{{ forloop.index0 }}">
+          <img src="{{ image.url }}" alt="{{ image.description }}">
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</article>
+
+<!-- Sidebar Guide -->
+{% if page.guide %}
+<div class="guide-sidebar" id="guideSidebar">
+  <button class="guide-close" onclick="closeGuide()">&times;</button>
+  <div class="guide-content">
+    {{ page.guide | markdownify }}
+  </div>
+</div>
+{% endif %}
+
+<!-- Lightbox (keeping existing code) -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&times;</button>
+  <button class="lightbox-prev">&#8249;</button>
+  <button class="lightbox-next">&#8250;</button>
+  <div class="lightbox-content">
+    <img class="lightbox-image" src="" alt="">
+    <p class="lightbox-description"></p>
+  </div>
+</div>
+
+<script>
+// Guide functions
+function openGuide() {
+  document.getElementById('guideSidebar').classList.add('active');
+  document.getElementById('guideOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeGuide() {
+  document.getElementById('guideSidebar').classList.remove('active');
+  document.getElementById('guideOverlay').classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+// Existing lightbox code
+const images = [
+  {% for image in page.images %}
+  {
+    url: {{ image.url | jsonify }},
+    description: {{ image.description | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+let currentIndex = 0;
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.querySelector('.lightbox-image');
+const lightboxDesc = document.querySelector('.lightbox-description');
+
+function openLightbox(index) {
+  currentIndex = index;
+  lightboxImg.src = images[currentIndex].url;
+  lightboxDesc.textContent = images[currentIndex].description;
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  lightbox.classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % images.length;
+  lightboxImg.src = images[currentIndex].url;
+  lightboxDesc.textContent = images[currentIndex].description;
+}
+
+function prevImage() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  lightboxImg.src = images[currentIndex].url;
+  lightboxDesc.textContent = images[currentIndex].description;
+}
+
+function openGuide() {
+  document.getElementById('guideSidebar').classList.add('active');
+  document.body.classList.add('guide-open');
+}
+
+function closeGuide() {
+  document.getElementById('guideSidebar').classList.remove('active');
+  document.body.classList.remove('guide-open');
+}
+
+document.querySelectorAll('.image-item').forEach((item, index) => {
+  item.addEventListener('click', () => openLightbox(index));
+});
+
+document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+document.querySelector('.lightbox-next').addEventListener('click', nextImage);
+document.querySelector('.lightbox-prev').addEventListener('click', prevImage);
+
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) closeLightbox();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (!lightbox.classList.contains('active')) return;
+  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'ArrowRight') nextImage();
+  if (e.key === 'ArrowLeft') prevImage();
+});
+</script>

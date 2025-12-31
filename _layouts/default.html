@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+        <h1><a href="{{ '/' | relative_url }}" class="bold-text">JASMINE SUN</a></h1>
+      <ul>
+        <li><a href="{{ '/travel' | relative_url }}" class="bold-text">[TRAVEL]</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; 2025 {{ site.title }}</p>
+  </footer>
+</body>
+</html>
