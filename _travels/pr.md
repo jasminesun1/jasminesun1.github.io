@@ -91,24 +91,16 @@ images:
     description: El Yunque trail wet season
   - url: /assets/images/pr/yunque2.jpg
     description: El Yunque
-  - url: /assets/images/pr/yunque3.png
-    description: Cliff jumping!
   - url: /assets/images/pr/kumo1.jpeg
     description: Kumo Rooftop
   - url: /assets/images/pr/kumo2.jpg
     description: Kumo Food
-  - url: /assets/images/pr/Kumo3.jpeg
-    description: Kumo Rooftop
   - url: /assets/images/pr/brava.jpg
     description: Club Brava
   - url: /assets/images/pr/panaderia.jpg
     description: Panaderia Espana
   - url: /assets/images/pr/beach1.jpg
     description: Isla Verde Beach
-  - url: /assets/images/pr/beach2.jpeg
-    description: Isla Verde Beach
-  - url: /assets/images/pr/shower.jpeg
-    description: Bnb's outdoor shower
   - url: /assets/images/pr/placita.jpg
     description: La Placita
   - url: /assets/images/pr/bnb.jpg
@@ -117,24 +109,12 @@ images:
     description: Old San Juan
   - url: /assets/images/pr/osj2.jpg
     description: Old San Juan
-  - url: /assets/images/pr/beach4.jpg
-    description: Condado Beach
   - url: /assets/images/pr/yunque4.jpg
     description: El Yunque trail dry season
   - url: /assets/images/pr/yunque5.jpg
     description: El Yunque
-  - url: /assets/images/pr/osj3.jpg
-    description: Old San Juan
   - url: /assets/images/pr/osj4.jpg
     description: Old San Juan
-  - url: /assets/images/pr/osj5.jpg
-    description: Old San Juan
-  - url: /assets/images/pr/kumo4.jpg
-    description: Kumo food
-  - url: /assets/images/pr/kumo5.jpg
-    description: Kumo Rooftop
-  - url: /assets/images/pr/beach5.jpg
-    description: Isla Verde Beach
   - url: /assets/images/pr/bnb2.jpg
     description: Around the neighborhood
   - url: /assets/images/pr/beach6.jpg

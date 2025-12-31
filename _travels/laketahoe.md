@@ -51,24 +51,16 @@ images:
     description: Sunset hike on Cave Rock Trail
   - url: /assets/images/laketahoe/cave_rock_view.jpg
     description: View at Cave Rock
-  - url: /assets/images/laketahoe/cave_rock_view2.jpg
-    description: View at Cave Rock
   - url: /assets/images/laketahoe/tahoe_bagel.jpg
     description: Bagels from Tahoe Bagel Company
   - url: /assets/images/laketahoe/heavenly_village.jpg
     description: Heavenly Village
-  - url: /assets/images/laketahoe/jetski.jpg
-    description: Jetskiing
   - url: /assets/images/laketahoe/skunk_harbor_trail.jpg
     description: Hiking down to Skunk Harbor
   - url: /assets/images/laketahoe/skunk_harbor1.jpg
     description: Skunk Harbor
   - url: /assets/images/laketahoe/skunk_harbor2.jpg
     description: Skunk Harbor
-  - url: /assets/images/laketahoe/skunk_harbor3.jpg
-    description: Skunk Harbor
-  - url: /assets/images/laketahoe/paddleboarding.jpg
-    description: Paddleboarding
   - url: /assets/images/laketahoe/getaway_cafe.jpg
     description: The Getaway Cafe
   - url: /assets/images/laketahoe/getaway_cafe_food.jpg

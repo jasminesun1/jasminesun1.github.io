@@ -26,18 +26,12 @@ guide: |
 images:
   - url: /assets/images/sf/deli.jpg
     description: Ham and Cheese Deli has arcade machines
-  - url: /assets/images/sf/ham.jpg
-    description: ham
-  - url: /assets/images/sf/cheese.jpg
-    description: cheese
   - url: /assets/images/sf/view.jpg
     description: Start of our hike... unfortunately I don't know where this is because I did not have service most of the hike
   - url: /assets/images/sf/rodeo_beach_route.jpg
     description: Rodeo Beach Route
   - url: /assets/images/sf/rodeo_beach.jpg
     description: Rodeo Beach
-  - url: /assets/images/sf/sandwich.jpg
-    description: Yum
   - url: /assets/images/sf/batteries.jpg
     description: Batteries
   - url: /assets/images/sf/batteries2.jpg
@@ -54,8 +48,6 @@ images:
     description: Patiently waiting for sunset
   - url: /assets/images/sf/baker_beach.jpg
     description: Baker Beach
-  - url: /assets/images/sf/baker_beach2.jpg
-    description: Aw
 
 ---
 

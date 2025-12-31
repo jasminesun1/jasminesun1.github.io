@@ -80,8 +80,6 @@ images:
     description: Cable Mountain Lodge
   - url: /assets/images/utah/west_rim1.jpg
     description: Bottom of West Rim Trail
-  - url: /assets/images/utah/west_rim2.jpg
-    description: Ready to hike!!!
   - url: /assets/images/utah/deer.jpg
     description: Look closely
   - url: /assets/images/utah/west_rim3.jpg
@@ -96,14 +94,10 @@ images:
     description: View at end of Angel's Landing Trail
   - url: /assets/images/utah/squirrel.jpg
     description: squirrel
-  - url: /assets/images/utah/angels_landing3.jpg
-    description: Angel's Landing Trail...
   - url: /assets/images/utah/west_rim4.jpg
     description: Lotta switchbacks
   - url: /assets/images/utah/canyon_overlook1.jpg
     description: Canyon Overlook Trail
-  - url: /assets/images/utah/canyon_overlook2.jpg
-    description: Top of Canyon Overlook Trail
   - url: /assets/images/utah/goats.jpg
     description: Goats!!
   - url: /assets/images/utah/springdale.jpg
@@ -132,10 +126,6 @@ images:
     description: Queen's Garden Trail
   - url: /assets/images/utah/queens_garden2.jpg
     description: Queen's Garden Trail
-  - url: /assets/images/utah/queens_garden3.jpg
-    description: Queen's Garden Trail
-  - url: /assets/images/utah/navajo1.jpg
-    description: Navajo Loop Trail
   - url: /assets/images/utah/navajo2.jpg
     description: Navajo Loop Trail
   - url: /assets/images/utah/bridge.jpg
@@ -146,16 +136,12 @@ images:
     description: Thai Bella
   - url: /assets/images/utah/delicate.jpg
     description: Delicate Arch
-  - url: /assets/images/utah/sand_dune.jpg
-    description: Sand Dune Arch Trail
   - url: /assets/images/utah/sand_dune_arch.jpg
     description: Sand Dune Arch
   - url: /assets/images/utah/landscape.jpg
     description: Landscape Arch
   - url: /assets/images/utah/food_trucks.jpg
     description: Moab Food Trucks
-  - url: /assets/images/utah/window1.jpg
-    description: North Window
   - url: /assets/images/utah/window2.jpg
     description: North Window
   - url: /assets/images/utah/window3.jpg

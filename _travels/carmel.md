@@ -67,16 +67,12 @@ images:
     description: Downtown Carmel
   - url: /assets/images/carmel/brunos.jpg
     description: Sandwich from Bruno's Market & Deli
-  - url: /assets/images/carmel/town4.jpeg
-    description: Downtown Carmel
   - url: /assets/images/carmel/town5.jpg
     description: Downtown Carmel
   - url: /assets/images/carmel/trail.jpg
     description: Cypress Grove Trail At Point Lobos
   - url: /assets/images/carmel/lookout2.jpg
     description: Sea Lion Point Lookout
-  - url: /assets/images/carmel/lookout.jpeg
-    description: Looking for sea lions
 
 ---
 
