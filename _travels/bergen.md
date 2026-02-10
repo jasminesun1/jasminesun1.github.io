@@ -58,7 +58,7 @@ images:
   - url: /assets/images/bergen/floyen1.JPG
     description: Trails at top of Mt. Floyen
   - url: /assets/images/bergen/floyen4.JPG
-    description: Mt. FLoyen Viewsss
+    description: Mt. Floyen Viewsss
   - url: /assets/images/bergen/reindeer.JPG
     description: Reindeer hot dog...
   - url: /assets/images/bergen/salong1.JPG
