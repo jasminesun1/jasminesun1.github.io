@@ -53,10 +53,10 @@ images:
     description: Souvenir trolls
   - url: /assets/images/bergen/floyen2.JPG
     description: View from Mt. Floyen
-  - url: /assets/images/bergen/floyen1.JPG
-    description: Trails at top of Mt. Floyen
   - url: /assets/images/bergen/floyen3.JPG
     description: Trolls
+  - url: /assets/images/bergen/floyen1.JPG
+    description: Trails at top of Mt. Floyen
   - url: /assets/images/bergen/floyen4.JPG
     description: Mt. FLoyen Viewsss
   - url: /assets/images/bergen/reindeer.JPG
