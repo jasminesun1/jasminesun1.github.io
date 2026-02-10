@@ -2,7 +2,7 @@
 layout: travel
 title: Bergen
 location: Bergen
-region: Europe
+region: Abroad
 visit_date: January 2026
 guide: |
   ## Logistics

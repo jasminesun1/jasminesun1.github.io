@@ -7,7 +7,7 @@ title: Travel
   
   <div class="regions-grid">
     <div class="region">
-      <h1>AMERICAS</h1>
+      <h1>USA</h1>
       <ul>
         {% for travel in site.travels %}
           {% if travel.region == "America" %}
@@ -18,7 +18,7 @@ title: Travel
     </div>
 
     <div class="region">
-      <h1>EUROPE</h1>
+      <h1>ABROAD</h1>
       <ul>
         {% for travel in site.travels %}
           {% if travel.region == "Europe" %}
