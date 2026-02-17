@@ -21,7 +21,7 @@ title: Travel
       <h1>ABROAD</h1>
       <ul>
         {% for travel in site.travels %}
-          {% if travel.region == "Europe" %}
+          {% if travel.region == "Abroad" %}
             <li><a href="{{ travel.url | relative_url }}">{{ travel.title }}</a></li>
           {% endif %}
         {% endfor %}
